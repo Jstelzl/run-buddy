@@ -1,0 +1,128 @@
+/* container for entire webpage */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+    /* body color and font */
+  body {
+      color: #39a6b2;
+      font-family: Helvetica, Arial, sans-serif;
+      
+    }
+    
+    /* overall header style */
+    header {
+      padding: 20px 35px;
+      background-color: #39a6b2;
+    }
+    
+    /* style for header "<h1>" */
+    header h1 {
+      font-weight: bold;
+      font-size: 36px;
+      color: #fce138;
+      margin: 0;
+      display: inline;
+    }
+    
+    /* style for header "<a>" */
+    header a {
+      text-decoration: none;
+      color: #fce138;
+    }
+    
+    /* moved nav element right */
+    header nav {
+      float: right;
+      margin: 7px 0;
+    }
+    
+    /* styling the li elem, in the ul, in the nav, in the header. */
+    header nav ul li {
+      display: inline;
+      margin: 0 30px;
+      font-weight: lighter;
+      font-size: 22px;
+  
+    }
+    
+    /* All footer style */
+    footer {
+      background: #fce138;
+      width: 100%;
+      padding: 40px 35px;
+    }
+    
+    /* h1 footer style */
+    footer h1 {
+      display: inline;
+      color: #024e76;
+      font-size: 30px;
+      margin: 0;
+  
+    }
+  
+    /* div footer style */
+    footer div {
+      float: right;
+      line-height: 1.5;
+      text-align: right;
+  
+    }
+  
+    /*  a footer style  */
+    footer a {
+      color: #024e76;
+  
+    }
+
+    /* section element padding */
+    section {
+        padding: 60px;
+
+    }
+  
+    /* hero style start */
+    .hero {
+        background-image: url("../css/images/hero-bg.jpeg");
+        height: 600px;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+
+    }
+    /* hero style end */
+
+    .hero-form {
+        background-color: #fce138;
+        padding: 20px;
+        width: 500px;
+        color: #024e76;
+        border: solid 3px #024e76;
+        position: absolute;
+        bottom: 120px;
+        right: 140px;
+    }
+
+    .hero-form h3 {
+      font-size: 24px;
+      margin: 0;
+    }
+
+    .hero-form p {
+      margin: 5px 0 15px 0;
+
+    }
+
+    .form-input {
+      border: 1px solid #024e76;
+      display: block;
+      padding: 7px 15px;
+      font-size: 16px;
+      color: #024e76;
+      width: 100%;
+      margin-bottom: 15px;
+
+    }
