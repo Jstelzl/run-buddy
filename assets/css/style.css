@@ -569,9 +569,10 @@ section {
 
   }
 
-  .checkbox-wrapper input + label::after, 
+
+.checkbox-wrapper input + label::after, 
 .radio-wrapper input + label::after {
-  content: none;
+  content: none;tent: none;
 }
 
 .checkbox-wrapper input:checked + label::after, 
